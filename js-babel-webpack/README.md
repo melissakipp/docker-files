@@ -12,7 +12,7 @@ A starter pack to build JavaScript applications using standards from ES2015, ES2
 If you do not have NodeJS and NPM install on your machine, this will install the dependencies into an image.
 
 ```sh
-$ docker compose run modernjs npm install
+$ docker compose run js-babel-webpack npm install
 ```
 
 ### To start the container and serve
