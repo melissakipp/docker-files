@@ -1,6 +1,6 @@
-# NodeJS with Docker
+# NodeJS Evnironment with Docker
 
-Simple boilerplate starter pack to build JavaScript applications using NodeJS and Express.
+Simple boilerplate starter pack to use for NodeJS.
 
 **Version**
 1.1.0
@@ -21,6 +21,8 @@ $ docker compose run nodejs npm install
 $ docker compose up
 ```
 
+Output
+
 ```sh
 App running on http://localhost:{PORT}
 ```
@@ -32,3 +34,7 @@ App running on http://localhost:{PORT}
 #### License
 
 This project is licensed under the MIT License
+
+#### Resource
+
+[Bret Fisher](https://github.com/BretFisher)
