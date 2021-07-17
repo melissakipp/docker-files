@@ -34,7 +34,3 @@ App running on http://localhost:{PORT}
 #### License
 
 This project is licensed under the MIT License
-
-#### Resource
-
-[Bret Fisher](https://github.com/BretFisher)
