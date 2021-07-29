@@ -1,6 +1,6 @@
-# EJS Evnironment with Docker
+# StimulusJS Evnironment with Docker
 
-Simple boilerplate starter pack to use for EJS.
+Boilerplate pack to use for StimulusJS and Materialize project.
 
 **Version** 1.1.0
 

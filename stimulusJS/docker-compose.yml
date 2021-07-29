@@ -1,0 +1,11 @@
+version: "2.7"
+
+services:
+  app:
+    image: node:1.0.0
+    build: .
+    user: node
+    ports:
+      - 9000:9000
+    volumes:
+      - .:/usr/src/app

@@ -1,0 +1,26 @@
+{
+  "name": "stimulus-js",
+  "version": "1.0.0",
+  "description": "Boilerplate kit for library project",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "dev": "npm install && nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Melissa Kipp",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "express": "^4.16.3",
+    "nodemon": "^2.0.12",
+    "webpack": "^4.9.1",
+    "webpack-dev-middleware": "^3.1.3"
+  }
+}
