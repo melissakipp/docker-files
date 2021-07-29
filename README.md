@@ -7,3 +7,5 @@
 [nodejsEnv](https://github.com/melissakipp/docker-files/tree/main/nodejsEnv)
 
 [SimplePhpEnv](https://github.com/melissakipp/docker-files/tree/main/simplePhpEnv)
+
+[EJS](https://github.com/melissakipp/docker-files/tree/main/ejsApp)
