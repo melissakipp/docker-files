@@ -33,3 +33,7 @@ Melissa Kipp
 #### License
 
 This project is licensed under the MIT License
+
+#### Resources
+
+[Emmanuel Henri](https://www.linkedin.com/learning/learning-stimulus/welcome)

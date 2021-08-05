@@ -11,3 +11,5 @@
 [EJS](https://github.com/melissakipp/docker-files/tree/main/ejsApp)
 
 [StimulusJS](https://github.com/melissakipp/docker-files/tree/main/stimulusJS)
+
+[EJS with Docker (Dev & Pro)](https://github.com/melissakipp/docker-files/tree/main/ejsDockerJS)
