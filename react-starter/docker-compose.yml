@@ -1,7 +1,7 @@
 version: "2.7"
 
 services:
-  reactjs:
+  react-app:
     build: .
     ports:
       - 3000:3000

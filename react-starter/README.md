@@ -7,11 +7,14 @@ Goals:
 - [ ] Start a new React app without having NodeJS install
 - [ ] Add database
 
-## Looking Into:
+**Looking Into:**
 
-Bret Fisher created a Jekyll environment without any dependencies on the machine. This is the process that I will be working towards for ReactJS and VueJS. [Bret Fisher](https://hub.docker.com/r/bretfisher/jekyll)
+Bret Fisher created a Jekyll environment without any dependencies on the machine. This is the process that I will be working towards for ReactJS and VueJS. The steps he used was a `docker run` command inside an empty directory to install the Jekyll starter files and then `docker up` to start the Jekyll server for a developer environment. [Bret Fisher](https://hub.docker.com/r/bretfisher/jekyll)
 
-> _Below is the README.md that comes with ReactJS_
+---
+
+:+1:
+_Below is the info that comes with `create-react-app`_
 
 ## Getting Started with Create React App
 
