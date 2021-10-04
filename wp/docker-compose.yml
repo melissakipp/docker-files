@@ -1,0 +1,52 @@
+version: "3.5"
+services:
+  # Database
+  db:
+    image: mysql:8.0.26
+    container_name: "mysql"
+    volumes:
+      - "db_mjl-wpsite:/var/lib/mysql"
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+    restart: always
+    networks:
+      - mjl-wpsite
+  # Wordpress
+  wordpress:
+    depends_on:
+      - db
+    image: wordpress:5.8.1-php7.4-apache
+    container_name: "wp"
+    ports:
+      - "8000:80"
+    volumes:
+      - "./:/var/www/html"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+    restart: always
+    networks:
+      - mjl-wpsite
+  # phpmyadmin
+  phpmyadmin:
+    depends_on:
+      - db
+      - wordpress
+    image: phpmyadmin/phpmyadmin
+    container_name: "phpmyadmin"
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: password
+    restart: always
+    networks:
+      - mjl-wpsite
+networks:
+  mjl-wpsite:
+volumes:
+  db_mjl-wpsite:
