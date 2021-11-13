@@ -1,4 +1,4 @@
-FROM node:16.6.0-alpine3.11 as prod
+FROM node:16.6.0-alpine3.11
 ENV NODE_VERSION 16.6.0
 
 ENV PORT 3000
